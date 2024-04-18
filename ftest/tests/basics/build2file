@@ -1,0 +1,3 @@
+import libs = ftest%lib{ftest}
+
+exe{driver}: {hxx cxx}{**} $libs testscript{**}

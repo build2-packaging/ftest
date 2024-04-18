@@ -1,0 +1,14 @@
+: 1
+name: ftest
+version: 0.3.0-a.0.z
+type: lib,binless
+language: c++
+summary: A simple and limited unit-test framework for C++ 98 
+license: BSL-1.0 ; Boost Software License 1.0
+description-file: README.md
+package-description-file: PACKAGE-README.md
+url: https://github.com/nemtrif/ftest
+email: lily.coder@gmail.com
+#build-error-email: lily.coder@gmail.com
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
