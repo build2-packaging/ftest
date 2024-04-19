@@ -5,10 +5,12 @@ type: lib,binless
 language: c++
 summary: A simple and limited unit-test framework for C++ 98 
 license: BSL-1.0 ; Boost Software License 1.0
+topics: C++, testing framework
 description-file: README.md
-package-description-file: PACKAGE-README.md
 url: https://github.com/nemtrif/ftest
-email: lily.coder@gmail.com
-#build-error-email: lily.coder@gmail.com
+package-description-file: PACKAGE-README.md
+package-url: https://github.com/build2-packaging/ftest
+package-email: packaging@build2.org ; Mailing list.
+
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0

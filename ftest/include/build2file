@@ -1,7 +1,4 @@
-intf_libs = # Interface dependencies.
-#import xxxx_libs += libhello%lib{hello}
-
-lib{ftest}: hxx{**} $intf_libs
+lib{ftest}: hxx{**}
 
 # Export options.
 #
@@ -16,8 +13,4 @@ lib{ftest}:
 
 # Install recreating subdirectories.
 #
-hxx{*}:
-{
-  install         = include/
-  install.subdirs = true
-}
+hxx{*}: install = include/
