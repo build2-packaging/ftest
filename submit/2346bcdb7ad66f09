@@ -1,0 +1,7 @@
+: 1
+name: ftest
+version: 0.3.0
+type: lib,binless
+language: c++
+summary: A simple and limited unit-test framework for C++ 98
+license: BSL-1.0; Boost Software License 1.0
